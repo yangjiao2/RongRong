@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import App from "./App";
 import Home from "./introduction/Home";
 import About from "./About";
-import Page from "./Page";
+import Page from "./projects/Page";
 
 const Root = (props) => {
   return (
