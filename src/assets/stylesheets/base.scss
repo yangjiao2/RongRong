@@ -76,23 +76,21 @@ h1 {
 }
 
 .colored_background {
-  background-color: #00963a;
-  width: 100vw; //  widthview
+  display: flex;
+  justify-content: center;
+
+  // background-color: #00963a;
+  width: auto; //  widthview
   height: 100vh; // view height
-  color: white;
 }
 
 .qrcode_img {
-  margin-top: 100px;
-  width: 200px;
+  width: 300px;
   height: 200px;
-  margin-left: 30%;
+  margin-top: 100px;
 }
 
-.title-centered {
-  margin-left: 35%;
-}
-
-.centered {
+.context {
   margin-left: 20%;
+  padding-top: 100px;
 }

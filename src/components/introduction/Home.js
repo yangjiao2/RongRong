@@ -1,5 +1,6 @@
 import React from "react";
-
+import leader from "./../../assets/images/leader.png";
+import team from "./../../assets/images/team.png";
 import "../../assets/stylesheets/base.scss";
 
 const Home = () => {
@@ -13,11 +14,8 @@ const Home = () => {
     <div>
       <h1 className="introduction_title">{title}</h1>
       <div>{context}</div>
-      <img
-        src={
-          "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601133791778&di=d7805808f3da84eb35e553f4ff88baa5&imgtype=0&src=http%3A%2F%2Fimg.mp.sohu.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170729%2F56a5b84f8b1743f5af7b7eadabaff111_th.jpg"
-        }
-      ></img>
+      {/* <img src={leader}></img> */}
+      <img src={team}></img>
     </div>
   );
 };
