@@ -14,8 +14,8 @@ const Root = (props) => {
       <App>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route path="/about" component={About} />
-          <Route path="/pages/:id" component={Page} /> */}
+          {/* <Route path="/about" component={About} />*/}
+          <Route path="/pages/:id" component={Page} />
           <Route path="*" component={Home} />
         </Switch>
       </App>

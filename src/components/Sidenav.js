@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// Nav = Navigation
+
 const Sidenav = () => {
   return (
     <div className="sidenav">
@@ -19,17 +21,17 @@ const Sidenav = () => {
         <div className="sidenav-list__header">项目展示</div>
         <li>
           <Link className="sidenav-list__sub-item" to="/pages/1">
-            项目 1
+            融合文体活动
           </Link>
         </li>
         <li>
           <Link className="sidenav-list__sub-item" to="/pages/2">
-            项目 2
+            小龄融合
           </Link>
         </li>
         <li>
           <Link className="sidenav-list__sub-item" to="/pages/3">
-            项目 3
+            支持性就业
           </Link>
         </li>
       </ul>
