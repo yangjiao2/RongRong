@@ -1,8 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-function App() {
-  return (
+import PropTypes from "prop-types";
+import 
+
+const Page = ({ match }) => {
+  const { id } = match.params;
     <div className="App">
       <header className="App-header">
           <h1>EXPRESS THANKS</h1>
