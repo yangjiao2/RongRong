@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import 
+import "../../asserts/stylesheets/base.css";
 
 const Page = ({ match }) => {
   const { id } = match.params;
