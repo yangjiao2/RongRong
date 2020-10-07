@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import "../../assert/stylesheets/base.css";
+import "../assets/stylesheets/base.css";
 function App() {
   return (
     <div>
@@ -30,7 +30,7 @@ function App() {
             </td>
           </tr>
           <tr>
-          <img src="自媒体传播.png" alt="自媒体传播" title="图片" />
+          <img src=../assets/images/"自媒体传播.png" alt="自媒体传播" title="图片" />
           </tr>
           <tr>
             <td>
