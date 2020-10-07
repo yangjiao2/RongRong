@@ -22,7 +22,7 @@ function App() {
         
           
         <td>
-          <img src="小龄融合.png" alt="小龄融合" title="图片" width="80%" />
+          <img src=../../assert/images/"小龄融合.png" alt="小龄融合" title="图片" width="80%" />
         </td>
         </tr>
     </table>
@@ -43,10 +43,10 @@ function App() {
                   共同参与外教课程活动，建立熟悉感和<br />互动关系。总共举办了14次活动，共有23名融爱融乐的心智障碍青少<br />年和47名哈罗的小学生参与了活动。 </dd>
               </dl>
             </td>
-            <img src="项目目标.png" alt="项目目标" title="图片" width="80%" />
+            <img src=../../assert/images/"项目目标.png" alt="项目目标" title="图片" width="80%" />
             <p>另外，融爱融乐也与海嘉双语国际学校举办了2次最佳老友融合体验活动。<br />
               分别有12名心智障碍青少年和12名学生志愿者组成了一对一的支持伙<br />伴，参与到了海嘉学校的音乐会和庙会活动，体验了融合学校的活动氛围。</p>
-            <img src="项目成果.png" alt="项目成果" title="图片" width="80%" />
+            <img src=../../assert/images/"项目成果.png" alt="项目成果" title="图片" width="80%" />
             <td>
             </td>
           </tr>
@@ -68,7 +68,7 @@ function App() {
           </dl>
           </td>
           <td>
-          <img src="友爱校园行.png" alt="项目成果" title="图片" width="100%" />
+          <img src=../../assert/images/"友爱校园行.png" alt="项目成果" title="图片" width="100%" />
           </td>
           </tr>
         </table>
