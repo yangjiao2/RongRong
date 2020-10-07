@@ -265,5 +265,3 @@ const Page = ({ match }) => {
     </div>
   );
 }
-
-export default App;
