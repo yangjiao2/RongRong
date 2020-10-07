@@ -10,10 +10,10 @@ function App() {
       <table>
       <tr>
       <td>
-        <img src="财务1.png" alt="财务" title="图片" />
+        <img src=../../assert/images/"财务1.png" alt="财务" title="图片" />
       </td>
       <td>
-      <img src="财务2.png" alt="财务" title="图片" />
+      <img src=../../assert/images/"财务2.png" alt="财务" title="图片" />
       </td>
       </tr>
       </table>
@@ -30,7 +30,7 @@ function App() {
             </td>
           </tr>
           <tr>
-          <img src=../assets/images/"自媒体传播.png" alt="自媒体传播" title="图片" />
+          <img src=../../assert/images/"自媒体传播.png" alt="自媒体传播" title="图片" />
           </tr>
           <tr>
             <td>
@@ -42,7 +42,7 @@ function App() {
               <p>融爱融乐总干事受邀作为一线公益组织代表参加阿里 95公益周，分享科技发展如何助力公益。</p>
             </td>
             <td>
-              <img src="社会影响.png" alt="社会影响" title="图片" />
+              <img src=../../assert/images/"社会影响.png" alt="社会影响" title="图片" />
             </td>
             </tr>
             <tr>
