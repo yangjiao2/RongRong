@@ -3,23 +3,30 @@ import logo from "./logo.svg";
 import "../../assert/stylesheet/base.css";
 function App() {
   return (
-    <div>
+       <div>
       <header className="colored_background">
-        <h1 className="App-title">项目执行与成果 <br />
-        PROJECT EXECUTION AND RESULT        
-        
-        <ul className=".App-points">
-          <li>融合文体活动</li>
-          <li> 小龄融合 </li>
-          <li>支持性就业 </li>
-          <li>家长赋能和家长喘息 </li>
-          <li>心智障碍者自倡导 </li>
-          <li>其他工作成果</li>
-        </ul>
-        </h1>
+        <table className="App-points">
+          <tr>
+            <h1 className="App">项目执行与成果 <br />
+            PROJECT EXECUTION AND RESULT   </h1>   
+          </tr>
+          <tr>
+          <ul>
+            <li>融合文体活动</li>
+            <li> 小龄融合 </li>
+            <li>支持性就业 </li>
+            <li>家长赋能和家长喘息 </li>
+            <li>心智障碍者自倡导 </li>
+            <li>其他工作成果</li>
+          </ul>
+          </tr>
+        </table>
+
       </header>
-      <div>
-      <p >CULTURAL AND SPORTS ACTIVITIES </p>
+      <table className="App-spacing">
+        <tr>
+        <td>
+        <p >CULTURAL AND SPORTS ACTIVITIES </p>
           <h1 >融合文体活动</h1>
           <p>项目目标</p>
           <ol>
@@ -27,16 +34,20 @@ function App() {
             <li> 培养青年志愿者的社会责任感。在与心<br />智障碍者互动中，展示他们自身的活力和<br />魅力，充分发挥出来自己的领导才能</li >
             <li>改善社会大众对心智障者的认知，接受<br />社会的个体差异，推动社会融合。</li >
           </ol>
-          <img src=../../assert/images/'融合文化.png' alt="融合文化" title="图片" height="50%" />
-      </div>
+        </td>
+        <td>
+          <img src='融合文化.png' alt="融合文化" title="图片" height="80%" />
+        </td>
+        </tr>
+      </table>
       <body>
-        <table>
+        <table className="App-s_spacing">
           <td >
             <h1> PROJECT OUTCOME 项目成果</h1>
             <h3>常规活动</h3>
             <p>2019年，融融开展的快乐活动营和徒步等常规活动依旧开展得有声<br />有色，在保证日常进行的同时，融融也对活动的立意、互动性、寓教于<br />乐等维度深入探讨，
               在活动主题和活动趣味性上进行改善，为京城各<br />个城区的心智障碍者提供丰富的周末生活，让心智障碍者家庭能够<br />在娱乐与喘息的同时，更有收获。</p>
-            <img src=../../assert/images/'常规活动.png' alt="常规活动" title="图片" height="100%" />
+            <img src='常规活动.png' alt="常规活动" title="图片" height="100%" />
             <h1>戈壁活动</h1>
             <div>
               <p>2019年，融融带领心智障碍者参加戈十四挑战赛，每一位心智障碍者都<br />是突破人生屏障的平凡英雄。
@@ -48,7 +59,7 @@ function App() {
                 结下深厚的友谊，同时也用自己的积极向上的生活态度让所有参与的<br />伙伴们都深刻地感受到：每位心青年都是无价之宝，
                 无论作为行走在戈壁<br />上的勇士，还是在大本营服务的志愿者。
               </p>
-              <img src=../../assert/images/"戈壁活动.png" alt="戈壁活动" title="图片" height="100%" />
+              <img src="戈壁活动.png" alt="戈壁活动" title="图片" height="100%" />
             <p>图片取自“戈十四”挑战赛、“戈十四”无障碍公益服务视频</p>
             </div>
           </td>
@@ -57,7 +68,7 @@ function App() {
             <p>2019年，融融扩大了特长班的种类，体能、气排球、篮球、小龄足球、羽毛<br />球、乒乓球、舞蹈以及音乐疗愈，绘画和书法等特长班的设立，
               对于心智障<br />碍者来说，大大的丰富了周末的学习和生活。
               同时，融融增加了特长班的<br />开设地点，让心智障碍者能够就近参与自己喜爱的活动，目前服务区域覆<br />盖北京近郊及部分远郊区县。 </p>
-              <img src=../../assert/images/"特长班.png" alt="特长班 " title="图片" height="100%" />
+              <img src="特长班.png" alt="特长班 " title="图片" height="100%" />
               <h1>增加与企业的合作</h1>
               <p>2019年，融融扩大与企业的合作，苹果、拜耳、汽车博物馆、Veritas、滴<br />滴、
                 vmware等优秀企业纷纷邀请融融的心青年体验自己的企业氛围与<br />文化，在心青年开拓视野的同时，
@@ -77,7 +88,7 @@ function App() {
           <p>2019年12月14日，包括心智障碍者家庭，志愿者，以及来自残联、公益<br />基金会、
             友善企业的各界嘉宾共近500人欢聚一堂，共度融爱融乐“一<br />起摇摆”2019年年会，这是融爱融乐成立以来规模最大、参与人数最多<br />的一次。
             这意味着有越来越多的心智障碍家庭走出来，越来越多的支持<br />方和志愿者参与进来，越来越多的伙伴在推动社会融合的使命激励下<br />坚持走下去。 </p>
-            <img src=../../assert/images/"年会.png" alt="年会 " title="图片" height="100%" />
+            <img src="年会.png" alt="特长班 " title="图片" height="100%" />
           </td>
         </table> 
       </body>
