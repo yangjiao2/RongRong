@@ -4,7 +4,7 @@ import "../../asserts/stylesheets/base.css";
 
 const Page = ({ match }) => {
   const { id } = match.params;
-    <div className="App">
+   <div className="App">
       <header className="App-header">
           <h1>EXPRESS THANKS</h1>
           <h1>致谢</h1>
@@ -74,7 +74,17 @@ const Page = ({ match }) => {
                     <dd>丰台文化馆 </dd>
                     <dd>北京市文化志愿者服务中心丰台分中心 </dd>
                     <dd>社区体育公众服务平台 </dd>
-                    <dd>天恒乒乓球俱乐部 </dd>
+                    <dd>天恒乒乓球俱乐部 </dd> 
+                    <dd>北京协和医学院护理学院小小蜗团队</dd>
+                    <dd>北京师范大学艺术与传媒学院团委</dd>
+                    <dd>中国人民公安大学继续教育学院学生会</dd>
+                    <dd>北京工业大学阳光志愿服务总团</dd>
+                    <dd>北京一零一中石油分校初二1班</dd>
+                    <dd>Harrow International School Beijing</dd>    
+            </dl>
+          </td>
+          <td>
+            <dl>
                     <dd>彩翼儿童美术（诺德店） </dd>
                     <dd>北京印刷学院学生社团联合会志愿实践部 </dd>
                     <dd>北京石油化工学院志愿者协会 </dd>
@@ -137,12 +147,7 @@ const Page = ({ match }) => {
                     <dd>清华大学微纳电子系研团志愿者部</dd>
                     <dd>北京民政部干部学院学院爱之家社团</dd>
                     <dd>北京城市学院大学生职业发展协会</dd>
-                    <dd>北京协和医学院护理学院小小蜗团队</dd>
-                    <dd>北京师范大学艺术与传媒学院团委</dd>
-                    <dd>中国人民公安大学继续教育学院学生会</dd>
-                    <dd>北京工业大学阳光志愿服务总团</dd>
-                    <dd>北京一零一中石油分校初二1班</dd>
-                    <dd>Harrow International School Beijing</dd>     
+                    
             </dl>
           </td>
           <td>
